@@ -288,6 +288,13 @@ export const dataMenu = [
           },
         ],
       },
+      {
+        TypeItem: "single",
+        Key: "/customer/manage-contact",
+        Icon: '<span class="anticon"><img src="/images/icons/calendar.svg"></span>',
+        Route: "/customer/manage-contact",
+        Text: "Quản lí contact",
+      },
     ],
   },
 
