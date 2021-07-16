@@ -67,12 +67,12 @@ const ModalAdd = (props) => {
 
   return (
     <>
-      <button className="btn btn-warning" onClick={showModal}>
+      <button className="btn btn-primary" onClick={showModal}>
         Select Teacher
       </button>
 
       <Modal
-        title="List teacher"
+        title="Add staff"
         visible={isModalVisible}
         onOk={handleOk}
         onCancel={handleCancel}
